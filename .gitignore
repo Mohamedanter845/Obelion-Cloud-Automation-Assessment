@@ -1,0 +1,5 @@
+# Ignore Terraform state files and local config
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.log
