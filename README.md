@@ -26,6 +26,8 @@ This repository contains the complete setup, configurations, automation scripts,
 - MySQL RDS (engine 8.0, private subnet only)
 - Security groups, attachments, outputs
 
+![EC2 Instances Running](./runninginstances.PNG)
+*Instances running on AWS Console*
 ---
 
 ### **Task Group B (CI/CD)**
@@ -51,6 +53,9 @@ Configured CloudWatch alarms:
 - Alarms created for:
   - Backend server
   - Frontend server
+
+![CloudWatch Alarms](./cloudwatch.PNG)
+*Configured CloudWatch alarms on backend and frontend servers*
 
 ---
 
@@ -80,6 +85,20 @@ sudo systemctl reload php8.2-fpm
 - Ubuntu 22.04 LTS
 
 ---
+
+## ⚙️ Frontend App Running
+
+![Frontend Uptime Kuma](./frontend.PNG)
+*Uptime Kuma frontend running successfully*
+
+---
+
+## 🗄️ MySQL RDS Instance
+
+![MySQL RDS](./rds.PNG)
+*MySQL RDS instance without internet exposure*
+
+
 
 ## ✨ Author
 Mohamed Anter  
